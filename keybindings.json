@@ -1,3 +1,30 @@
 // Place your key bindings in this file to override the defaults
 [
+  [
+    // 1. Atajo para comentar/descomentar línea
+    {
+        "key": "ctrl+/","mac": "cmd+/","command": "editor.action.commentLine"
+    },
+
+    // 2. Atajo para abrir la paleta de comandos
+    {
+        "key": "ctrl+shift+p","mac": "cmd+shift+p","command": "workbench.action.showCommands"
+    },
+
+    // 3. Atajo para abrir el terminal integrado
+    {
+        "key": "ctrl+`","mac": "cmd+`","command": "workbench.action.terminal.toggleTerminal"
+    },
+
+    // 4. Atajo para ir al archivo
+    {
+        "key": "ctrl+p","mac": "cmd+p","command": "workbench.action.quickOpen"
+    },
+
+    // 5. Atajo para buscar en archivos
+    {
+        "key": "ctrl+shift+f","mac": "cmd+shift+f","command": "workbench.action.findInFiles"
+    }
+]
+
 ]
