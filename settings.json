@@ -1,2 +1,19 @@
 {
+{
+    // 1. Cambiar el tema de color
+    "workbench.colorTheme": "Dark+ (default dark)",
+
+    // 2. Ajustar el formato de los números de la guía de indentación
+    "editor.tabSize": 4,
+
+    // 3. Activar el auto guardado de archivos
+    "files.autoSave": "afterDelay",
+
+    // 4. Mostrar los números de línea en el editor
+    "editor.lineNumbers": "on",
+
+    // 5. Configurar el formato automático al guardar el archivo
+    "editor.formatOnSave": true
+}
+
 }
